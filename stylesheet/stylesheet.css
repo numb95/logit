@@ -71,6 +71,7 @@ nav ul li a:hover {
 }
 #show {
 	width: 196px;
+	height: 536px;
 	background-color: #dedede;
 	float: right;
 	margin: 10px;
