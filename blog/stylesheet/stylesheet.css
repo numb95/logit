@@ -1,0 +1,122 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Droid Arabic Naskh', serif;
+	direction: rtl;
+}
+body {
+	background-color: #2d2d2d;
+}
+#wrapper {
+	width: 1024px;
+	margin: auto;
+}
+nav {
+	padding-top: 1px;
+	background-color: #0090ff;
+	height: 40px;
+	width: 1024px;
+	border: 1px solid #0090ff;
+}
+nav ul li {
+	float: right;
+	list-style-type: none;
+	text-align: center;
+}
+nav ul li a {
+	display: block;
+	width: 120px;
+	height: 40px;
+	text-decoration: none;
+	color: white;
+	border-left: 1px solid #2d2d2d;
+}
+nav ul li a:hover {
+	background-color: #2d2d2d;
+}
+#siteheader a {
+	display: block;
+	height: 152px;
+	width: 1024px;
+	padding-top: 48px;
+	color: white;
+	padding-right: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+#sidepanel {
+	height: 700px;
+	width: 100%;
+}
+.header {
+	border-radius: 20px;
+	width: 1024px;
+	height: 40px;
+	color: white;
+	background-color: #0090ff;
+	border: 1px solid #0090ff;
+	text-align: center;
+	clear: both;
+	margin-right: 1px;
+}
+.header a {
+	display: block;
+	width: 120px;
+	height: 40px;
+	text-decoration: none;
+	color: white;
+}
+.header a:hover {
+	background-color: #2d2d2d;
+	border-radius: 20px;
+}
+#show {
+	width: 196px;
+	height: 700px;
+	background-color: #dedede;
+	float: right;
+	margin: 10px;
+	border-radius: 10px;
+}
+#show ul li {
+	padding: 5px;
+}
+#show ul li:hover {
+	background-color: #eaeaea;
+	border-radius: 20px;
+}
+#frame {
+	height: 200px;
+	width: 196px;
+	background-color: #0090ff;
+	float: right;
+	border-radius: 10px;
+}
+#image {
+	height: 190px;
+	width: 185px;
+	margin: 5px;
+	float: right;
+	border-radius: 5px;
+}
+#content {
+	height: 700px;
+	width: 788px;
+	background-color: #dedede;
+	float: right;
+	margin: 10px;
+	border-radius: 10px;
+}
+#content h3, #content p {
+	padding-right: 20px;
+}
+footer {
+	clear: both;
+	background-color: #0090ff;
+	color: white;
+	text-align: center;
+}
+footer {
+	color: white;
+}
