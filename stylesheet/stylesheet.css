@@ -13,3 +13,33 @@ nav {
 	height: 40px;
 	width: 100%;
 }
+nav ul li {
+	float: right;
+	list-style-type: none;
+	text-align: center;
+}
+nav ul li a {
+	display: block;
+	width: 120px;
+	height: 40px;
+	text-decoration: none;
+	color: white;
+	border-left: 1px solid #2d2d2d;
+}
+nav ul li a:hover {
+	background-color: #2d2d2d;
+}
+#siteheader {
+	height: 152px;
+	width: 100%;
+	padding-top: 48px;
+	color: white;
+	padding-right: 20px;
+	text-align: center;
+	border-bottom: 1px solid #0090ff;
+}
+#aboutme {
+	height: 200px;
+	width: 100%;
+	border-bottom: 1px solid #0090ff;
+}
