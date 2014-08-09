@@ -8,11 +8,15 @@
 body {
 	background-color: #2d2d2d;
 }
+#wrapper {
+	width: 1280px;
+	margin: auto;
+}
 nav {
 	padding-top: 1px;
 	background-color: #0090ff;
 	height: 40px;
-	width: 100%;
+	width: 1280px;
 	border: 1px solid #0090ff;
 }
 nav ul li {
@@ -44,7 +48,8 @@ nav ul li a:hover {
 	width: 100%;
 }
 .header {
-	width: 100%;
+	border-radius: 20px;
+	width: 1280px;
 	height: 40px;
 	color: white;
 	background-color: #0090ff;
@@ -62,12 +67,14 @@ nav ul li a:hover {
 }
 .header a:hover {
 	background-color: #2d2d2d;
+	border-radius: 20px;
 }
 #show {
 	width: 196px;
 	background-color: #dedede;
 	float: right;
 	margin: 10px;
+	border-radius: 10px;
 }
 #show ul li {
 	direction: ltr;
@@ -85,6 +92,7 @@ nav ul li a:hover {
 	width: 196px;
 	background-color: #0090ff;
 	float: right;
+	border-radius: 10px;
 }
 .image {
 	height: 190px;
@@ -94,17 +102,19 @@ nav ul li a:hover {
 }
 #infocontent {
 	height: 536px;
-	width: 1060px;
+	width: 1040px;
 	background-color: #dedede;
 	float: right;
 	margin: 10px;
+	border-radius: 10px;
 }
 .show {
-	width: 304px;
+	width: 300px;
 	height: 400px;
 	background-color: #dedede;
 	float: right;
 	margin: 10px;
+	border-radius: 10px;
 }
 .show ul li {
 	direction: ltr;
@@ -119,14 +129,15 @@ nav ul li a:hover {
 }
 .frame {
 	height: 196px;
-	width: 304px;
+	width: 300px;
 	background-color: #0090ff;
 	float: right;
+	border-radius: 10px;
 }
 .social {
 	float: right;
 	display: block;
-	width: 218px;
+	width: 213px;
 	height: 128px;
 	text-align: center;
 }
