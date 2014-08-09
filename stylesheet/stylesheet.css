@@ -9,9 +9,11 @@ body {
 	background-color: #2d2d2d;
 }
 nav {
+	padding-top: 1px;
 	background-color: #0090ff;
 	height: 40px;
 	width: 100%;
+	border: 1px solid #0090ff;
 }
 nav ul li {
 	float: right;
@@ -36,10 +38,95 @@ nav ul li a:hover {
 	color: white;
 	padding-right: 20px;
 	text-align: center;
-	border-bottom: 1px solid #0090ff;
 }
 #aboutme {
-	height: 200px;
+	height: 400px;
 	width: 100%;
-	border-bottom: 1px solid #0090ff;
+}
+.header {
+	width: 100%;
+	height: 40px;
+	color: white;
+	background-color: #0090ff;
+	border: 1px solid #0090ff;
+	text-align: center;
+	clear: both;
+	margin-right: 1px;
+}
+.header a {
+	display: block;
+	width: 120px;
+	height: 40px;
+	text-decoration: none;
+	color: white;
+}
+.header a:hover {
+	background-color: #2d2d2d;
+}
+#show {
+	width: 196px;
+	background-color: #dedede;
+	float: right;
+	margin: 10px;
+}
+#show ul li {
+	direction: ltr;
+	padding: 5px;
+	list-style-type: none;
+}
+#show ul li h3 {
+	text-align: center;
+}
+#show ul li:hover {
+	background-color: #eaeaea;
+}
+#frame {
+	height: 200px;
+	width: 196px;
+	background-color: #0090ff;
+	float: right;
+}
+.image {
+	height: 190px;
+	width: 185px;
+	margin: 5px;
+	float: right;
+}
+#infocontent {
+	height: 536px;
+	width: 1060px;
+	background-color: #dedede;
+	float: right;
+	margin: 10px;
+}
+.show {
+	width: 304px;
+	height: 400px;
+	background-color: #dedede;
+	float: right;
+	margin: 10px;
+}
+.show ul li {
+	direction: ltr;
+	padding: 5px;
+	list-style-type: none;
+}
+.show ul li h3 {
+	text-align: center;
+}
+.show ul li:hover {
+	background-color: #eaeaea;
+}
+.frame {
+	height: 196px;
+	width: 304px;
+	background-color: #0090ff;
+	float: right;
+}
+.social {
+	float: right;
+	display: block;
+	width: 218px;
+	height: 128px;
+	text-align: center;
 }
