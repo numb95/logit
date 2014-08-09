@@ -80,6 +80,7 @@ nav ul li a:hover {
 	direction: ltr;
 	padding: 5px;
 	list-style-type: none;
+	text-align: left;
 }
 #show ul li h3 {
 	text-align: center;
@@ -117,7 +118,6 @@ nav ul li a:hover {
 	border-radius: 10px;
 }
 .show ul li {
-	direction: ltr;
 	padding: 5px;
 	list-style-type: none;
 }
