@@ -6,18 +6,22 @@
 	direction: rtl;
 }
 body {
-	background-color: #2d2d2d;
+	background-color: #f1f1f1;
 }
 #wrapper {
-	width: 1270px;
+	padding-top: 45px;
+	width: 1000px;
 	margin: auto;
+	background-color: white;
+	box-shadow: 5px 0px 7px 0px rgba(50, 50, 50, 0.1), -5px 0px 7px 0px rgba(50, 50, 50, 0.1),  0px -5px 7px 0px rgba(50, 50, 50, 0.1), 0px 5px 7px 0px rgba(50, 50, 50, 0.1);
 }
 nav {
-	padding-top: 1px;
-	background-color: #0090ff;
+	background-color: #f13f11;
 	height: 40px;
-	width: 1280px;
-	border: 1px solid #0090ff;
+	width: 100%;
+	border-radius: 0px 0px 5px 5px;
+	position: fixed;
+	top: 0px;
 }
 nav ul li {
 	float: right;
@@ -26,7 +30,7 @@ nav ul li {
 }
 nav ul li a {
 	display: block;
-	width: 120px;
+	width: 130px;
 	height: 40px;
 	text-decoration: none;
 	color: white;
@@ -37,101 +41,79 @@ nav ul li a:hover {
 }
 #siteheader a {
 	display: block;
-	height: 152px;
-	width: 1270px;
-	padding-top: 48px;
-	color: white;
+	height: 200px;
+	width: 100%;
+	padding-top: 100px;
+	color: black;
 	padding-right: 20px;
 	text-align: center;
 	text-decoration: none;
 }
-#aboutme {
+#head {
+	width: 950px;
+	height: 350px;
+	border: 1px solid #d4d4d4;
+	margin: auto;
+	margin-top: 40px;	
+	margin-bottom: 40px;
+	box-shadow: 5px 0px 7px 0px rgba(50, 50, 50, 0.1), -5px 0px 7px 0px rgba(50, 50, 50, 0.1),  0px -5px 7px 0px rgba(50, 50, 50, 0.1), 0px 5px 7px 0px rgba(50, 50, 50, 0.1);
+}
+#headimage {
+	width: 900px;
+	height: 300px;
+	border: 1px solid #d4d4d4;
+	margin: auto;
+	margin-top: 23px;
+}
+#headimage h1 {
+	text-align: center;
+}
+#aboutus {
 	height: 400px;
 	width: 100%;
 }
 .header {
 	border-radius: 20px;
-	width: 1270px;
+	width: 100%;
 	height: 40px;
 	color: white;
-	background-color: #0090ff;
-	border: 1px solid #0090ff;
+	background-color: #444444;
 	text-align: center;
 	clear: both;
-	margin-right: 1px;
 }
 .header a {
 	display: block;
-	width: 120px;
+	width: 140px;
 	height: 40px;
 	text-decoration: none;
 	color: white;
 }
 .header a:hover {
-	background-color: #2d2d2d;
+	background-color: #444444;
 	border-radius: 20px;
 }
-#show {
-	width: 196px;
-	height: 578px;
-	background-color: #dedede;
-	float: right;
-	margin: 10px;
-	border-radius: 10px;
+.content {
+	clear: both;
+	width: 900px;
+	margin: auto;
+	border: 1px solid #d4d4d4;
+	box-shadow: 5px 0px 7px 0px rgba(50, 50, 50, 0.1), -5px 0px 7px 0px rgba(50, 50, 50, 0.1),  0px -5px 7px 0px rgba(50, 50, 50, 0.1), 0px 5px 7px 0px rgba(50, 50, 50, 0.1);
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
-#show ul li {
-	direction: ltr;
-	padding: 5px;
-	list-style-type: none;
-	text-align: left;
-}
-#show ul li h3 {
-	text-align: center;
-}
-#show ul li:hover {
-	background-color: #eaeaea;
-	border-radius: 20px;
-}
-#frame {
-	height: 200px;
-	width: 196px;
-	background-color: #0090ff;
-	float: right;
-	border-radius: 10px;
-}
-#image {
-	height: 190px;
-	width: 185px;
-	margin: 5px;
-	float: right;
-	border-radius: 5px;
-}
-.image {
-	height: 185px;
-	width: 285px;
-	margin: 5px;
-	float: right;
-	border-radius: 5px;
-	border: 1px solid white;
-}
-#infocontent {
-	height: 578px;
-	width: 1034px;
-	background-color: #dedede;
-	float: right;
-	margin: 10px;
-	border-radius: 10px;
-}
-#infocontent h3, #infocontent p {
+.content h3, .content p {
 	padding-right: 20px;
 }
 .show {
-	width: 297px;
+	width: 228px;
 	height: 400px;
-	background-color: #dedede;
+	background-color: #ffffff;
 	float: right;
 	margin: 10px;
-	border-radius: 10px;
+	border: 1px solid #d4d4d4;
+	box-shadow: 5px 0px 7px 0px rgba(50, 50, 50, 0.1), -5px 0px 7px 0px rgba(50, 50, 50, 0.1),  0px -5px 7px 0px rgba(50, 50, 50, 0.1), 0px 5px 7px 0px rgba(50, 50, 50, 0.1);
 }
 .show ul li {
 	padding: 5px;
@@ -144,11 +126,11 @@ nav ul li a:hover {
 	background-color: #eaeaea;
 }
 .frame {
-	height: 196px;
-	width: 297px;
-	background-color: #0090ff;
+	height: 156px;
+	width: 210px;
+	background-color: #444444;
 	float: right;
-	border-radius: 10px;
+	margin: 9px;
 }
 .social {
 	float: right;
@@ -157,11 +139,14 @@ nav ul li a:hover {
 }
 footer {
 	clear: both;
-	background-color: #0090ff;
+	background-color: #444444;
 	color: white;
 	text-align: center;
 }
 footer {
+	color: white;
+}
+footer a {
 	color: white;
 }
 .show p, .show h3 {
@@ -169,4 +154,20 @@ footer {
 }
 .show a {
 	color: black;
+}
+#attachment img {
+	margin-right: 100px;
+	width: 700px;
+}
+#terms header {
+	background-color: #b90100;
+}
+#why header {
+	background-color: #007bb7;
+}
+#location header {
+	background-color: #41314e;
+}
+#followus header {
+	background-color: #3ec491;
 }
