@@ -16,7 +16,7 @@ body {
 	box-shadow: 5px 0px 7px 0px rgba(50, 50, 50, 0.1), -5px 0px 7px 0px rgba(50, 50, 50, 0.1),  0px -5px 7px 0px rgba(50, 50, 50, 0.1), 0px 5px 7px 0px rgba(50, 50, 50, 0.1);
 }
 nav {
-	background-color: #f13f11;
+	background-color: #3465a4;
 	height: 40px;
 	width: 100%;
 	border-radius: 0px 0px 5px 5px;
@@ -38,6 +38,10 @@ nav ul li a {
 }
 nav ul li a:hover {
 	background-color: #2d2d2d;
+}
+#navcenter {
+	margin: auto;
+	width: 700px;
 }
 #siteheader a {
 	display: block;
@@ -158,6 +162,9 @@ footer a {
 #attachment img {
 	margin-right: 100px;
 	width: 700px;
+}
+#aboutus header {
+	background-color: #444444;
 }
 #terms header {
 	background-color: #b90100;
