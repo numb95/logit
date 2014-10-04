@@ -1,8 +1,11 @@
-@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@font-face {
+  font-family: 'B Yekan';
+  src: url('http://www.fontsaddict.com/fontface/b-yekan.ttf');
+}
 * {
 	padding: 0;
 	margin: 0;
-	font-family: 'Droid Arabic Naskh', serif;
+	font-family: 'B Yekan', serif;
 	direction: rtl;
 }
 body {
